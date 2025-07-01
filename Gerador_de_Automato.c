@@ -18,8 +18,7 @@ int main (){
     
     switch(choice){
         case 1:
-            
-            
+        
             printf("\nQuantos simbolos?");
             scanf("%d", &qntsimb);
             printf("\nAlfabeto:");
@@ -64,8 +63,7 @@ int main (){
                       }
                       loop = 1;
                       
-                          
-                      
+                                        
                    }
                 
                 }
@@ -120,10 +118,6 @@ return 0;
 }
 
 
-
-
-
-
 int leitura_fita (int Q[],int tamest, char E[],int qntsimb, char str[], int **delta){
     int fita = strlen(str);
     int cont = 0;
@@ -154,8 +148,6 @@ int leitura_fita (int Q[],int tamest, char E[],int qntsimb, char str[], int **de
     
         
     }    
-    
-    
     
     
     
